@@ -5,26 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Ivan</title>
 
-    <!-- DOMYŚLNIE CZERWONY MOTYW -->
-   <link id="theme" rel="stylesheet" href="red.css">
+    <link id="theme" rel="stylesheet" href="red.css">
 </head>
 <body>
-<script>
-function setRed(){
-document.getElementById("theme").href="red.css";
-}
 
-function setGreen(){
-document.getElementById("theme").href="green.css";
-}
-</script>
 <header>
     <h1>Ivan - CV</h1>
 </header>
-<div>
+
+<div style="text-align:center; margin:20px;">
     <button onclick="setRed()">Red theme</button>
     <button onclick="setGreen()">Green theme</button>
 </div>
+
 <main>
     <section>
         <h2>Kontakt</h2>
@@ -81,6 +74,16 @@ document.getElementById("theme").href="green.css";
 <footer>
     <p>© 2026 Ivan</p>
 </footer>
+
+<script>
+function setRed(){
+document.getElementById("theme").href="red.css";
+}
+
+function setGreen(){
+document.getElementById("theme").href="green.css";
+}
+</script>
 
 </body>
 </html>
